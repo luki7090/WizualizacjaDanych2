@@ -38,19 +38,4 @@ from math import *
 # matrix = np.diag([a for a in (array)],)
 # print(matrix)
 
-#Zad6 
-horizontal = 'Marcin'
-vertical = 'Martinez'
-diagonal = 'Martinski'
-h_lenght = len(horizontal)
-v_lenght = len(vertical)
 
-#h_matrix = np.array(list(horizontal))
-h_matrix = h_matrix.reshape((v_lenght, h_lenght))
-#v_matrix = np.array(list(vertical))
-v_matrix = v_matrix.reshape((v_lenght,h_lenght))
-print(h_matrix)
-print(v_matrix)
-
-matrix = h_matrix + v_matrix
-print(matrix)
